@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Driver\DriverLibrary.csproj" />
+    <ProjectReference Include="..\Location\LocationLibrary.csproj" />
+    <ProjectReference Include="..\Passenger\PassengerLibrary.csproj" />
+    <ProjectReference Include="..\Ride\RideLibrary.csproj" />
+    <ProjectReference Include="..\Vehicle\VehicleLibrary.csproj" />
+  </ItemGroup>
+
+</Project>
